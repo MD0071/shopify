@@ -13,7 +13,9 @@
 .accordion .summary__title + .icon-caret {
   height: calc(var(--font-heading-scale) * 0.6rem);
 }
-
+.removeThis {
+  display: unset;
+}
 .accordion + .accordion {
   margin-top: 0;
   border-top: none;
